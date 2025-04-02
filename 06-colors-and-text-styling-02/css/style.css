@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#first-paragraph{
+    color: whitesmoke;
+    background-color: palevioletred;
+    font-style: italic;
+    text-align: center;
+}
+
+#second-paragraph{
+    color: rgb(203, 25, 25);
+    background-color: plum;
+    text-decoration: underline;
+    text-align: right;
+    font-size: 20px;
+    font-;
+}
