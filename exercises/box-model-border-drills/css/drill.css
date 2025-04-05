@@ -1,0 +1,46 @@
+/* Drill 1 - Write your code solution below */
+.d1-container {
+    border: 3px solid black;
+}
+
+/* Drill 2 - Write your code solution below */
+#d2-p1 {
+    border: dotted red 10px;
+}
+#d2-p2 {
+    border: dashed green 5px;
+}
+
+/* Drill 3 - Write your code solution below */
+#d3-h2-1 {
+    border-bottom: 2px solid black;
+}
+
+
+/* Drill 4 - Write your code solution below */
+#d4-navbar {
+    border-bottom: 5px solid;
+    background-color: orange;
+}
+
+
+/* Drill 5 - Write your code solution below */
+.d5-div {
+    border: teal solid 20px;
+    border-radius: 10%;
+}
+
+
+/* Drill 6 - Write your code solution below */
+#d6-div-1 {
+    background-color: lightcoral;
+    border-radius: 24px 24px 0px 24px;
+}
+#d6-div-2 {
+    background-color: lightblue;
+    border-radius: 24px 24px 24px 0px;
+}
+
+
+/* Drill 7 - Write your code solution below */
+
