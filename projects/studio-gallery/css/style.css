@@ -1,0 +1,36 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+#pic1 {
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border: 10px solid black;
+    padding: 8px;
+    background-color: whitesmoke;
+}
+
+#pic2 {
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border: 12px solid black;
+    padding: 9px;
+    background-color: whitesmoke;
+}
+
+#pic3 {
+    margin-top: 100px;
+    width: 100px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    border: 12px outset crimson;
+    padding: 9px;
+    background-color: whitesmoke;
+}
