@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#item1 {
+    height: 100px;
+    background-color: pink;
+    grid-area: one;
+}
+
+#item2 {
+    height: 100px;
+    background-color: lightcoral;
+    grid-area: two;
+}
+
+#item3 {
+    height: 100px;
+    background-color: aquamarine;
+    grid-area: three;
+}
+
+#item4 {
+    height: 100px;
+    background-color: antiquewhite;
+    grid-area: four;
+}
+
+#item5 {
+    height: 100px;
+    background-color: yellow;
+    grid-area: five;
+}
+
+#item6 {
+    height: 100px;
+    background-color: lightskyblue;
+    grid-area: six;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-areas: 
+        "six six six"
+        "three three two"
+        "four five five"
+        "one one one";
+}
