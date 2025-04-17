@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#column-one {
+    background-color: #f5f5f5e5;
+    width: 150px;
+}
+
+#column-two {
+    background-color: #f5f5f5e5;
+    flex: 1;
+    width: 700px;
+    border-radius: 50px;
+}
+
+#column-three {
+    background-color: #f5f5f5e5;
+    flex: 1;
+}
+
+#page-layout {
+    display: grid;
+    grid-template-columns:  150px 1fr 1fr;
+}
+
+#seller-information {
+    border-bottom: black solid;
+    border-top: black solid;
+    text-align: center;
+}
+
+#seller-information-2 {
+    border-top: black solid;
+    border-bottom: black solid;
+}
+
+#seller-informatin-3 {
+    border-top: black solid;
+    border-bottom: black solid;
+}
+
+.button a {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px 24px;
+    background: #3665f3;
+    border-radius: 20px;
+    margin: 20px;
+    display: block;
+}
+
+.button2 a {
+    color: #3665f3;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px 24px;
+    background: white;
+    border-radius: 20px;
+    margin: 20px;
+    display: block;
+}
