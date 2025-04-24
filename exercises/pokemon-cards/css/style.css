@@ -1,0 +1,43 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+.card-style-3 {
+    width: 350px;
+    border: solid 18px plum;
+    padding:;
+    border-radius: 10px;
+    background: linear-gradient(
+        150deg,
+        rgb(182, 119, 182),
+        plum,
+        rgb(182, 119, 182)
+    );
+    margin: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-style-3 img {
+    border: solid 4px rgb(182, 119, 182);
+    width: 90%;
+}
+
+.card-style-3 .details {
+    background-color: plum;
+    margin: 15px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;
+} 
+
+.card-style-3 .description {
+    margin: 15px;
+}

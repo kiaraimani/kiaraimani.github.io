@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url("../images/hero.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#hero-1 h1 {
+    font-size: 50px;
+    position: absolute;
+    left: 4%;
+    padding: 10px;
+}
+
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 15px solid black;
+    padding: 24px;
+    gap: 24px;
+}
+
+.basic-grid-gallery img {
+    width: 100%;
+}

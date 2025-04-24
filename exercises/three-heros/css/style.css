@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url("../images/baby.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+
+    justify-content: flex-start;
+    align-content: center;
+
+    position: relative;
+   
+
+}
+
+#hero-1 h1 {
+    font-size: 50px;
+
+}
+
+.hero-content {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+
+#hero-2 {
+    background-image: url(../images/rose.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#hero-3 {
+    background-image: url(../images/puppy.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+}
