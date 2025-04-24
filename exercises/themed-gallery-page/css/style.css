@@ -31,9 +31,10 @@ body {
 .basic-grid-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 15px solid black;
+    border: 10px solid black;
     padding: 24px;
     gap: 24px;
+    margin: 80px;
 }
 
 .basic-grid-gallery img {
