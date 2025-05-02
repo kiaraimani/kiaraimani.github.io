@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card {
+    flex: 300px;
+    border: 5px solid black;
+    margin: 30px;
+    padding: 25px;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 3px solid black;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+#card1 {
+    background-color: black;
+    color: pink;
+}
+
+#card1 a {
+    background-color: black;
+    border: 3px pink solid;
+    color: pink;
+}
+
+#card1 .card-content {
+    position: absolute;
+    background-color: black;
+    border: 3px solid pink;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #00000033;
+    left: 0px;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+
+#card1:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+#card2 {
+    background-color: black;
+    color: red;
+}
+
+#card2 a {
+    background-color: black;
+    border: 3px red solid;
+    color: red;
+}
+
+#card2 .card-content {
+    position: absolute;
+    background-color: black;
+    border: 3px solid red;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #00000033;
+    left: 0px;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+
+#card2:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+#card3 {
+    background-color: black;
+    color: rgb(165, 87, 42);
+}
+
+#card3 a {
+    background-color: black;
+    border: 3px rgb(165, 87, 42) solid;
+    color: rgb(165, 87, 42);
+}
+
+#card3 .card-content {
+    position: absolute;
+    background-color: black;
+    border: 3px solid rgb(165, 87, 42);
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #00000033;
+    left: 0px;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+
+#card3:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+#card4 {
+    background-color: black;
+    color: rgb(249, 192, 159);
+}
+
+#card4 a {
+    background-color: black;
+    border: 3px rgb(249, 192, 159) solid;
+    color: rgb(249, 192, 159);
+}
+
+#card4 .card-content {
+    position: absolute;
+    background-color: black;
+    border: 3px solid rgb(249, 192, 159);
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #00000033;
+    left: 0px;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+
+#card4:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
