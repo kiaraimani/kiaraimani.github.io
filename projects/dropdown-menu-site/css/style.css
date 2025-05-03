@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid rgb(94, 51, 1);
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+#navbar a:hover {
+    background-color: rgb(243, 159, 173);
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+#hero {
+    background-image: url("../images/wallpaper1.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    background-color: rgb(94, 51, 1);
+    border-radius: 24px;
+    top: 50px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-menu a:first-child {
+    border-radius: 24px 24px 0px 0px;
+}
+
+.dropdown-menu a:last-child {
+    border-radius: 0px 0px 24px 24px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: rgb(94, 51, 1);
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: rgba(219, 162, 96, 0.896);
+}
+
