@@ -41,6 +41,7 @@ body {
     background-attachment: fixed;
     position: relative;
     margin-bottom: 100px;
+    z-index: -1;
 }
 
 .dropdown-container {
@@ -53,7 +54,7 @@ body {
     top: 50px;
     position: absolute;
     opacity: 0;
-    visibility: hidden;
+    visibility: visible;
     transition: 
         opacity 0.25s,
         visibility 0.25s;
@@ -80,5 +81,6 @@ body {
 
 #navbar .dropdown-menu a:hover {
     background: rgba(219, 162, 96, 0.896);
+    margin-left: 0px;
 }
 
