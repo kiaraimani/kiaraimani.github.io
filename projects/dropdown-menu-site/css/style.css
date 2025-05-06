@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url("../images/wallpaper1.jpeg");
 }
 
 #navbar {
@@ -20,7 +21,6 @@ body {
     color: white;
     padding: 24px;
     font-size: 20px;
-    margin-left: 25px;
 }
 
 #navbar a:hover {
@@ -33,15 +33,39 @@ body {
     font-size: 36px;
 }
 
-#hero {
-    background-image: url("../images/wallpaper1.jpeg");
+#hero-5 {
+    background-image: url("../images/hero.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     position: relative;
-    margin-bottom: 100px;
     z-index: -1;
+}
+
+#hero-5 h2 {
+    background-color: whitesmoke;
+    padding: 10px;
+    opacity: 70%;
+}
+
+#hero-5 .hero-content {
+    text-align: right;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+}
+
+#hero-5 h2 {
+    font-size: 120px;
+}
+
+#hero-5 h4 {
+    font-size: 48px;
+}
+
+#main {
+    height: 100vh;
 }
 
 .dropdown-container {
@@ -81,6 +105,30 @@ body {
 
 #navbar .dropdown-menu a:hover {
     background: rgba(219, 162, 96, 0.896);
-    margin-left: 0px;
+}
+
+.center-column {
+    background-color: whitesmoke;
+    width: 50%; 
+    min-width: 500px;
+    margin: 0px auto;
+    padding: 40px;
+   margin-top: 10%;
+}
+
+.center-column h1 {
+    text-align: center;
+    color: rgb(94, 51, 1);
+    font-size: 50px;
+}
+
+.center-column p {
+    text-align: center;
+}
+
+.center-column img {
+    border: dotted 10px pink;
+    padding: 10px;
+    border-radius: 10%;
 }
 
