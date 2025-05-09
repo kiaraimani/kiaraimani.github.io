@@ -1,0 +1,106 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+
+.notes-container {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 200px);
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .note {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .note:nth-child(1) {
+    transform: rotate(-5deg);
+    top: -10px;
+    left: 15px;
+  }
+  
+  .note:nth-child(2) {
+    transform: rotate(10deg);
+    top: -5px;
+    left: -10px;
+  }
+  
+  .note:nth-child(3) {
+    transform: rotate(-15deg);
+    top: 5px;
+    left: 20px;
+  }
+  
+  .note:nth-child(4) {
+    transform: rotate(5deg);
+    top: 15px;
+    left: -20px;
+  }
+  
+  .note:nth-child(5) {
+    transform: rotate(-10deg);
+    top: -15px;
+    left: -5px;
+  }
+  
+  .note:nth-child(6) {
+    transform: rotate(12deg);
+    top: 10px;
+    left: 10px;
+  }
+  
+  .note:hover {
+    transform: scale(1.05) rotate(5deg);
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+  }
+  
+  .note img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+  
+  .yellow { 
+    background-color: #fff176; 
+}
+
+  .pink   { 
+    background-color: #f8bbd0; 
+}
+
+  .blue   { 
+    background-color: #81d4fa; 
+}
+
+  .green  { 
+    background-color: #a5d6a7; 
+}
+
+  .orange { 
+    background-color: #ffcc80; 
+}
+
+  .smiley { 
+    background-color: #fff59d; 
+}
+  
