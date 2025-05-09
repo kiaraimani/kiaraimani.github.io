@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #241773;
+}
+
+.single-column {
+    width: 800px;
+    margin: auto;
+    border: solid white 15px;
+}
+
+.image-container {
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50,-50);
+    color: white;
+    font-size: ;
+}

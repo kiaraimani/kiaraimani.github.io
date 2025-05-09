@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url("../images/wallpaper.jpeg");
+}
+
+#header {
+    background-color: #541E20;
+    display: flex;
+    align-items: center;
+}
+
+#header a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    font-size: 50px;
+}
+
+#header img {
+    width: 200px;
+}
+
+#navbar {
+    background-color: #9F8263;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#hero {
+    background-image: url("../images/hero.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+#hero h2 {
+    font-size: 72px;
+    margin-bottom: 36px;
+}
+
+#hero h4 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+#hero a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: white;
+    color: #333333;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+#centered-column {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    border: 2px solid #bd9e7e;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #866d53;
+    background: linear-gradient(
+        -50deg,
+        #9F8263,
+        #FFF7F7,
+        #9F8263
+    );
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card h2 {
+    font-size: 36px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+.card p {
+    font-size: 18px;
+    flex: 1;
+}
+
+.card a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #3A7E47;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #3A7E47;
+    transition: 
+        background-color 0.5s,
+        color 0.5s;
+
+}
+
+.card a:hover {
+    background-color: transparent;
+    color: #3A7E47;
+}
