@@ -16,7 +16,6 @@ body {
     align-items: center;
     justify-content: space-around;
     text-align: center;
-    flex-direction: column;
 }
 
 #header a {
@@ -93,10 +92,16 @@ body {
     width: 90vw;
     max-width: 1200px;
     margin: 48px auto;
-    display: flex;
-    flex-wrap: wrap;
     gap: 36px;
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .card {
@@ -166,8 +171,8 @@ body {
     padding: 10px;
     box-shadow: -4px 4px 12px #7a634c;
     background-color: #9F8263;
-    display: flex;
     flex-direction: column;
+    display: flex;
 }
 
 .featured-header {
@@ -180,15 +185,7 @@ body {
     font-style: normal;
 }
 
-.featured-header-2 h1 {
-    background-color: #541E20;
-    padding: 20px;
-    border: black solid 3px;
-    color: #e9cfb4;
-    font-family: "Purple Purse", serif;
-    font-weight: bold;
-    font-style: normal;
-}
+
 
 .featured-card img {
     width: 100%;
